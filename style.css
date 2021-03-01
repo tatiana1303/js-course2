@@ -1,0 +1,14 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 200px;
+    margin-bottom: 25px;
+}
+.check{
+    width: 100px;
+}
+.clean{
+    width: 100px;
+}
