@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+<div id="app">
+  <header class="header-main">
+         <div class="header container">
+          <a href="#" class="logo"><img src="img/logo.png" alt="logo">bran<span>d</span></a>
+          <form method="get" class="header__search">
+              <browse ref="browse"></browse>
+              <input name="search" type="text" placeholder="Search for item">
+              <button class="search"><i class="fas fa-search"></i></button>
+          </form>
+             <cart ref="cart"></cart>
+              <a href="#" class="header__account">My Account <i class="fas fa-caret-down"></i></a>
+              </div>
+  </header>
+    <topnavigation ref="topnavigation"></topnavigation>
+
+
+
+    <div class="slider">
+    <div class="slider__content container">
+               <h1 class="slider__text">The brand<span class="slider__text-wrapping">of luxerious <span class="slider__text-color">Fashion</span></span></h1>
+           </div>
+       </div>    
+ <div class="news container">
+        <div class="news__img">
+             <p><a href="#">hot deal<span>For men</span></a></p>
+         </div>
+          <div class="news__img">
+            <p><a href="#">luxirous &amp; trendy<span>Accesories</span></a></p>
+              </div>
+          <div class="news__img">
+            <p><a href="#">30% offer<span>Women</span></a></p>
+         </div>
+         <div class="news__img">
+           <p><a href="#">new arrivals<span>For kids</span></a></p> 
+     </div>
+ </div>
+ <section class="featured-items container">
+     <h1 class="featured-items__title">Featured Items</h1>
+     <p class="featured-items__subtitle">Shop for items based on what we featured in this week</p>
+     <products ref="products"></products>
+     <div class="featured-items__block__button-bottom"><a href="#">Browse All Product <i class="fas fa-long-arrow-alt-right"></i></a></div>
+ </section>
+    <error ref="error"></error>
+ <div class="offer container">
+     <div class="offer__text">
+         <h1 class="offer__title">30% <span class="offer__title__color">offer</span><span class="offer__subtitle">for women</span></h1>
+     </div>
+     <article class="offer__more">
+         <div class="offer__more__point">
+             <img src="img/offer-mark1.svg" alt="">
+             <div class="offer__more__text">
+                 <h1>Free Delivery</h1>
+                 <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+             </div>
+         </div>
+         <div class="offer__more__point">
+             <img src="img/offer-mark2.svg" alt="">
+             <div class="offer__more__text">
+                 <h1>Sales &amp; discounts</h1>
+                 <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+             </div>
+         </div>
+         <div class="offer__more__point">
+             <img src="img/offer-mark3.svg" alt="">
+             <div class="offer__more__text">
+                 <h1>Quality assurance</h1>
+                 <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
+             </div>
+         </div>
+     </article>
+ </div>
+ <div class="subscribe">
+     <div class="subscribe__content container">
+         <div class="subscribe__content__left">
+            <div class="subscribe__content__left__photo">
+             <img src="img/subscribe-photo.png" alt="">
+             </div>
+             <div class="subscribe__content__left__rewiew">
+             <p class="subscribe__content__review__text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus condimentum a. Aliquam condimentum mattis neque sed pretium”</p>
+             <p class="subscribe__content__review__autor">Bin Burhan<span>Dhaka, Bd</span></p>
+             <div class="subscribe__content__review__pagination">
+                 <a href="#"></a>
+                 <a href="#"></a>
+                  <a href="#"></a>
+             </div>
+             </div>
+         </div>
+         <div class="subscribe__content__right">
+             <h2 class="subscribe__content__right__title">Subscribe</h2>
+             <h3 class="subscribe__content__right__subtitle"> FOR OUR NEWLETTER AND PROMOTION</h3>
+             <form method="get" class="subscribe__content__right__form">
+                 <input type="text" placeholder="Enter Your Email">
+                 <button>Subscribe</button>
+             </form>
+         </div>
+     </div>
+ </div>
+ <footer>
+     <div class="footer__information container">
+         <div class="footer__information__content">
+             <a href="#" class="logo"><img src="img/logo.png" alt="logo">bran<span>d</span></a>
+             <p class="footer__information__content__text">Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p> 
+            <p class="footer__information__content__text">Efficiently plagiarize 24/365 action items and focused infomediaries.
+            Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p> 
+         </div>
+         <div class="footer__information__item">
+            <h1 class="footer__information__item__title">Company</h1>
+             <a href="#" class="footer__information__item__link">Home</a>
+             <a href="#" class="footer__information__item__link">Shop</a>
+             <a href="#" class="footer__information__item__link">About</a>
+             <a href="#" class="footer__information__item__link">How it Works</a>
+             <a href="#" class="footer__information__item__link">Contact</a>
+         </div>
+          <div class="footer__information__item">
+            <h1 class="footer__information__item__title">Information</h1>
+             <a href="#" class="footer__information__item__link">Tearms &amp; Condition</a>
+             <a href="#" class="footer__information__item__link">Privacy Policy</a>
+             <a href="#" class="footer__information__item__link">How to Buy</a>
+             <a href="#" class="footer__information__item__link">How to Sell</a>
+             <a href="#" class="footer__information__item__link">Promotion</a>
+         </div>
+          <div class="footer__information__item">
+            <h1 class="footer__information__item__title">Shop category</h1>
+             <a href="#" class="footer__information__item__link">Men</a>
+             <a href="#" class="footer__information__item__link">Women</a>
+             <a href="#" class="footer__information__item__link">Child</a>
+             <a href="#" class="footer__information__item__link">Apparel</a>
+             <a href="#" class="footer__information__item__link">Brows All</a>
+         </div>
+     </div>
+     <div class="footer__bottom">
+        <div class="footer__bottom__content container">
+         <p class="footer__bottom__copy">
+             &copy; Brand All Rights Reserved
+         </p>
+         <div class="footer__bottom__content__social">
+                 <a href="#" class="footer__bottom__content__social__links"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="footer__bottom__content__social__links"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="footer__bottom__content__social__links"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="footer__bottom__content__social__links"><i class="fab fa-pinterest-p"></i></a>
+                <a href="#" class="footer__bottom__content__social__links"><i class="fab fa-google-plus-g"></i></a>
+         </div>
+        </div> 
+     </div>
+ </footer>
+</div>
+    <script src="https://unpkg.com/vue@next"></script>
+  <script defer src="js/main.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+    "amount": 500,
+    "countGoods": 2,
+    "contents": [
+        {
+            "id_product": 123,
+            "product_name": "Rebox Zane",
+            "price": 250,
+            "quantity": 1,
+            "pic": "img/Single-page-slider.jpg"
+        },
+        {
+            "id_product": 457,
+            "product_name": "Rebox Zane",
+            "price": 250,
+            "quantity": 1,
+            "pic": "img/men-prod8.jpg"
+        },
+        {
+            "quantity": 3,
+            "id_product": 1,
+            "product_name": "Mango People T-Shirt",
+            "price": 52,
+            "pic": "img/men-prod1.jpg"
+        }
+    ]
+}
